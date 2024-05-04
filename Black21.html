@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="titulo"><b>MUNDO DINO 21 - BLACKJACK</b></header>
+    <div class="row mt-2">
+      <div class="col text-center">
+        <button id="btnnuevo" class="btn btn-primary">Nuevo Juego</button>
+        <button id="btnpedir" class="btn btn-warning">Pedir Carta</button>
+        <button id="btndetener" class="btn btn-danger">Detener</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col">
+        <h1>Jugador 1-<small id="smolito">0</small></h1>
+        <div id="jugador-cartas"></div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="col">
+        <h1>Jugador computadora-<small id="compuPuntos">0</small></h1>
+        <div id="computadora-cartas"></div>
+      </div>
+    </div>
+    <script src="underscore.js"></script>
+    <script src="pre.js"></script>
+  </body>
+</html>
